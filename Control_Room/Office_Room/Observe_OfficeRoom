@@ -1,0 +1,16 @@
+You look around the Office Room.
+
+There are papers and binders all over the floor. 
+The desks and chairs are overturned.
+
+You see another Research Document on a chair. To move it to the Control Room:
+  mv doc_4 Control_Room
+ 
+There is a map on one of the desks. To see the map:
+  cat map
+  
+You find a purple key under crumped paper. To move the key to the Control Room:
+  mv purple_key Control_Room
+  
+In the corner, you see a toolbox. Move toolbox to the Control Room:
+  mv toolbox Control_Room
