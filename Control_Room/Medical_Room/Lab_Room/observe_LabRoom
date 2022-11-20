@@ -3,9 +3,10 @@ Pushing open the door you are met with a horrific sight. The bloody, expiremente
 
 They quickly turn their head as you walk in, their mangled face shaking you to the core. You had no idea the side affects could be so... So utterly dreadful.
 
-You notice a cabinet on the other side of the room  
+You notice a piece of the research in their hand.  
 But to reach there you have to go through what used to be your friend.
 
 Do you engage or leave them in peace?
 
-// engage: cd Crewmate"
+// engage: cd Crewmate
+// leave: dir Control_Room"
