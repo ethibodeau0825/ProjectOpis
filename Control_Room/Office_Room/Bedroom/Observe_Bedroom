@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter the Purple Key Password: "
 read x
-if [ $x == "rd:<$3" ]
+if [ $x == "rda<e3" ]
 then
   echo "You have wandered into the Bedroom. 
 
