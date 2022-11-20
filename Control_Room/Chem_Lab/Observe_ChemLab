@@ -5,7 +5,6 @@ read x
 
 if [ $x == "({#;o2" ];
 then
-        death = 0
 
 if [ cd "$Chem_Lab" ]; then
         sleep 1
@@ -22,7 +21,6 @@ if [ cd "$Chem_Lab" ]; then
       echo "You died! Restart to play again."
     rm -rf ProjectOpis
 fi
-let death++
 else
         echo "Access Denied"
 fi
