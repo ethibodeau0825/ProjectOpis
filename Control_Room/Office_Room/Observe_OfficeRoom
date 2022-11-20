@@ -1,4 +1,9 @@
-You look around the Office Room.
+#!/bin/bash
+echo "Enter the Blue Key Password:"
+read x
+if [ $x == "@_v#7[" ]
+then 
+	echo "You look around the Office Room.
 
 There are papers and binders all over the floor. 
 The desks and chairs are overturned.
@@ -13,4 +18,7 @@ You find a purple key under crumped paper. To move the key to the Control Room:
   mv purple_key Control_Room
   
 In the corner, you see a toolbox. Move toolbox to the Control Room:
-  mv toolbox Control_Room
+  mv toolbox Control_Room"
+else 
+	echo "Access Denied"
+fi
