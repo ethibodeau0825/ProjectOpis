@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Enter The Green Key Password: "
+read x
+
+if [ $x == "({#;o2" ];
+then
+        death = 0
+
+if [ cd "$Chem_Lab" ]; then
+        sleep 1
+      echo "A odorless gas filled the room."
+      echo "You look around the Chem Lab"
+      echo "The lab is a mess, there is broken glass and different colored liquids on the floor."
+      echo " "
+        sleep 1
+      echo "You start to feel lightheaded."
+      echo "You fall over and die from the gas."
+      echo " "
+      echo " --------------------------------------------"
+      echo " "
+      echo "You died! Restart to play again."
+    rm -rf ProjectOpis
+fi
+let death++
+else
+        echo "Access Denied"
+fi
