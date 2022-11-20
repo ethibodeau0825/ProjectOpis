@@ -1,0 +1,70 @@
+#!/bin/bash
+echo " The engine is sputtering, alarms and flashing red lights cloud your vision."
+echo " You run to the engine frantically trying to find a way to fix it."
+echo " You feel the gravity of the planet below pulling, you are very close to hitting Opis's surface."
+echo " You run over to the engine looking to fix it."
+echo " "
+echo " ---------------------------------------------------------------------------------------------------"
+echo " " 
+
+FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
+
+  sleep 1
+    if [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
+        echo "Pulling out your toolkit you get set to work."
+        echo "Your hands work as if in second nature, as the engine seems to fix itself"
+        echo "You step back and smile, the engine is fixed."
+        echo "The ship starts to warp and auto poilot takes over."
+        echo "You are going home."
+        echo "A sinking feeling pools at the bottom of your stomache."
+        echo "The research is incomplete"
+        echo "Your alive but doomed your people."
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
+        echo " "        
+        echo "Game over."
+        rm -rf ProjectOpis
+    elif [[ $doc_count == 6 ]] && [ -f $FILE ]; then
+        echo "Pulling out your toolkit you get set to work."
+        echo "Your hands work as if in second nature, as the engine seems to fix itself"
+        echo "You step back and smile, the engine is fixed."
+        echo "The ship starts to warp and auto poilot takes over."
+        echo "You are going home."
+        echo "You stand back content and pull out the completed research."
+        echo "With the cure found and the ship fixed you can save your people"
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
+        echo " "
+        echo "Game over."
+        rm -rf ProjectOpis
+     elif [[ $doc_count < 6 ]] && [ ! -f $FILE ]; then
+        echo "Reaching the engine you look around"
+        echo "No tools litter the floor just broken pieces of machinery."
+        echo "The planet is getting closer and closer."
+        echo "Closing your eyes you brace for impact knowing that your planet will not be saved."
+        echo "The sabatours won."
+        echo "The ship crashies and you do not make it."
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
+        echo " "
+        echo "Game over."
+        rm -rf ProjectOpis
+     elif [[ $doc_count  == 6 ]] && [ ! -f $FILE ]; then
+        echo "Reaching the engine you look around"
+        echo "No tools litter the floor just broken pieces of machinery."
+        echo "You reach into your inventory and pull out the completed research."
+        echo "The planet is getting closer and closer."
+        echo "Closing your eyes you brace for impact knowing that the research will never reach the planet."
+        echo "They will not be saved."
+        echo "The sabatours won."
+        echo "The ship crashies and you and the research do not make it."
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
+        echo " "
+        echo "Game over."
+        rm -rf ProjectOpis
+    else
+        echo "I don't know how you got here"
+        echo "Good Bye"
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
+        echo " "
+        echo "Game over."
+        rm -rf ProjectOpis
+        exit
+    fi
