@@ -3,7 +3,7 @@
 echo "Enter The Green Key Password: "
 read x
 
-if [ $x == "({#;o2" ];
+if [ $x == "(h#;o2" ];
 then
         death = 0
 
