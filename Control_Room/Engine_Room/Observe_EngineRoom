@@ -1,0 +1,14 @@
+echo "Enter The Pink Key Password: "
+read x
+
+if [ $x == "lo?ng^" ];
+then
+        echo "You have entered into the Engine Room.
+
+There is a beepig noise coming from the neutralizer on the engine
+and steam is being escaped from the engines lower compartment.
+
+It looks like the damages to the engine are repairable."
+else
+        echo "Access Denied"
+fi
