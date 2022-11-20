@@ -3,10 +3,11 @@
 echo "Enter The Green Key Password: "
 read x
 
-if [ $x == "(h#;o2" ];
+if [ $x != "(h#;o2" ];
 then
+echo "Access Denied"
 
-if [ cd "$Chem_Lab" ]; then
+elif [ $x == "(h#;o2" ]; then
         sleep 1
       echo "A odorless gas filled the room."
       echo "You look around the Chem Lab"
@@ -19,8 +20,7 @@ if [ cd "$Chem_Lab" ]; then
       echo " --------------------------------------------"
       echo " "
       echo "You died! Restart to play again."
+
     rm -rf ProjectOpis
-fi
-else
-        echo "Access Denied"
+
 fi
