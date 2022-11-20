@@ -1,0 +1,22 @@
+#!/bin/bash
+echo "Enter the Purple Key Password: "
+read x
+if [ $x == "rd:<$3" ]
+then
+  echo "You have wandered into the Bedroom. 
+
+You look around and take in the sight of a standard bedroom. 
+There is a bed with two side tables and a chair in the corner of the room. 
+The bureau is standing directly Opposite of the bed. 
+
+The Bureau has a green key on it. To move the key to the Control Room:
+mv green_key Control_Room
+
+On the left nightstand there is a research document. To move it to the Control Room:
+mv doc_6 Control_Room
+
+Under the chair in the corner there is a purple key. To move it to the Control Room:
+mv purple_key Control_Room"
+else
+  echo "Access Denied"
+fi
