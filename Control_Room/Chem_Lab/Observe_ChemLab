@@ -21,6 +21,6 @@ elif [ $x == "(h#;o2" ]; then
       echo " "
       echo "You died! Restart to play again."
 
-    rm -rf ProjectOpis
+    rm -r ProjectOpis
 
 fi
