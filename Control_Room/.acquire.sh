@@ -10,7 +10,10 @@ then
 		"doc_1")
 			echo "doc_1" >> inventory
 			echo "You acquired Document 1!"
+			#maybe this will work
+			for [ -f ProjectOpis/Control_Room/.aquire.sh/doc_1 ] {
 			$doc_count++
+			}
 		;;
 		"doc_2")
 			echo "doc_2" >> inventory
