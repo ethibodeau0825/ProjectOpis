@@ -11,7 +11,7 @@ if grep -Fxq "Scalpel" inventory; then
     echo "You should pick up the Document 3"
     echo "To acquire the Document 3: type ./.acquire.sh doc_3"
     echo "To delete your crewmate: type 'rm Crewmate'"
-else;
+else
     sleep 1
     echo "Get out of there now! You have no way to defend yourself!"
     echo "It's to late, your crewmate is advancing on you."
