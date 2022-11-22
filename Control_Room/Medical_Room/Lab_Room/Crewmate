@@ -10,7 +10,7 @@ if grep -Fxq "Scalpel" inventory; then
     echo "Pulling yourself out of the stupor you notice part of the research behind them."
     echo
     echo "You should pick up the Document 3"
-    echo "To acquire the Document 3: type ./.acquire.sh doc_3"
+    echo "To acquire the Document 3: type ./.acquire.sh"
     echo "To delete your crewmate: type 'rm Crewmate'"
     echo
 else
