@@ -10,7 +10,8 @@ echo " "
 FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
 
   sleep 1
-    if [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
+    if grep -Fxq "tool_box"&"doc_1"&"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6" inventory; then
+    # [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
         echo "Pulling out your toolkit you get set to work."
         echo "Your hands work as if in second nature, as the engine seems to fix itself"
         echo "You step back and smile, the engine is fixed."
@@ -18,12 +19,13 @@ FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
         echo "You are going home."
         echo "A sinking feeling pools at the bottom of your stomache."
         echo "The research is incomplete"
-        echo "Your alive but doomed your people."
+        echo "Youre alive but doomed your people."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "        
         echo "Game over."
         rm -rf ProjectOpis
-    elif [[ $doc_count == 6 ]] && [ -f $FILE ]; then
+    elif grep -Fxq "tool_box"&"doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
+    # [[ $doc_count == 6 ]] && [ -f $FILE ]; then
         echo "Pulling out your toolkit you get set to work."
         echo "Your hands work as if in second nature, as the engine seems to fix itself"
         echo "You step back and smile, the engine is fixed."
@@ -35,7 +37,8 @@ FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
         echo " "
         echo "Game over."
         rm -rf ProjectOpis
-     elif [[ $doc_count < 6 ]] && [ ! -f $FILE ]; then
+     elif grep -Fxq "doc_1"&"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6" inventory; then
+     # [[ $doc_count < 6 ]] && [ ! -f $FILE ]; then
         echo "Reaching the engine you look around"
         echo "No tools litter the floor just broken pieces of machinery."
         echo "The planet is getting closer and closer."
@@ -46,7 +49,8 @@ FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
         echo " "
         echo "Game over."
         rm -rf ProjectOpis
-     elif [[ $doc_count  == 6 ]] && [ ! -f $FILE ]; then
+     elif grep -Fxq "doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
+     # [[ $doc_count  == 6 ]] && [ ! -f $FILE ]; then
         echo "Reaching the engine you look around"
         echo "No tools litter the floor just broken pieces of machinery."
         echo "You reach into your inventory and pull out the completed research."
