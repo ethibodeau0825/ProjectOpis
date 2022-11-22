@@ -12,7 +12,7 @@ You see the note. You notice the another Research Document on the floor. There i
 You almost step on a scalpel on the floor.
 
 To pick up items: ./.acquire.sh
-To pick up the red key: mv Red_Key Keychain 
+To pick up the red key: mv Red_Key ~/ProjectOpis/Control_Room/Keychain 
 To read the note: cat note
 
 
