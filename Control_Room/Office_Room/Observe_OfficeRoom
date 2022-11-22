@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Enter the Blue Key Password:"
+echo "Enter the Red Key Password:"
 read x
 if [ $x == "@_v#7[" ]
 then 
