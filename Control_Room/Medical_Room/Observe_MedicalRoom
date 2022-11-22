@@ -22,7 +22,3 @@ To brave foward the room: cd Lab_Room"
 else
 	echo "Access Denied"
 fi
-
-echo
-user=$PWD
-rsync -av --ignore-existing $user/inventory $user/Lab_Room/inventory
