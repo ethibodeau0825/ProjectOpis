@@ -13,3 +13,5 @@ fi
 echo "$item" >> inventory
 echo "You acquired $item!"
 echo
+
+rsync -avq $user/inventory $user/Medical_Room/inventory
