@@ -18,7 +18,8 @@ To read the note: cat note
 
 After you collected and observed the room you notice a door that is cracked. Muffled gasping and gurgling is heard from the entrance way.
 
-To brave foward the room: cd Lab_Room"
+To brave foward the room: cd Lab_Room
+If you want to move back to the Control Room: cd .."
 else
 	echo "Access Denied"
 fi
