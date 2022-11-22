@@ -14,4 +14,4 @@ echo "$item" >> inventory
 echo "You acquired $item!"
 echo
 
-rsync -av --ignore-existing $user/inventory $user/Lab_Room/inventory
+rsync -avq $user/inventory $user/Lab_Room/inventory
