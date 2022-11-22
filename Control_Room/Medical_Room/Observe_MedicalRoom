@@ -8,19 +8,18 @@ then
 
 Instruments and pills are knocked over.
 You see the note. You notice the another Research Document on the floor. There is a red key hanging on the board.
+
 You almost step on a scalpel on the floor.
 
+To pick up items: ./.acquire.sh
+To pick up the red key: mv Red_Key Keychain 
+To read the note: cat note
 
-// pick up items: mv doc_2 Control_Room
-// pick up the red key: mv red_key Control_Room
-// read the note: cat note
-// pick up the scalpel: mv scalpel Control_Room
 
-  
-  
 After you collected and observed the room you notice a door that is cracked. Muffled gasping and gurgling is heard from the entrance way.
 
-// brave the room: cd Lab_Room"
+To brave foward the room: cd Lab_Room"
 else
 	echo "Access Denied"
 fi
+
