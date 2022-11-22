@@ -13,3 +13,5 @@ fi
 echo "$item" >> inventory
 echo "You acquired $item!"
 echo
+
+rysnc -av --ignore-existing $user/inventory $user/Lab_Room/inventory
