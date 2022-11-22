@@ -4,5 +4,7 @@ They quickly turn their head as you walk in, their mangled face shaking you to t
 You notice a piece of the research in their hand.  
 But to reach there you have to go through what used to be your friend.
 Do you engage or leave them in peace?
-// engage: cd Crewmate
-// leave: dir Control_Room"
+
+To engage: cd Crewmate
+To go back to Medical Room: cd .."
+
