@@ -1,6 +1,6 @@
 #!/bin/bash
-FILE=/ProjectOpis/Control_Room/Medical_Room/Scalpel
-if [ -f "$FILE" ]; then
+user=$PWD
+if grep -Fxq "Scalpel" inventory; then
     echo "They lung towards you."
     echo "You recall the scalpel you picked up in the med room."
     echo "In one defensive motion, you kill the crewmate."
@@ -11,14 +11,14 @@ if [ -f "$FILE" ]; then
     echo "You should pick up the Document 3"
     echo "To acquire the Document 3: type ./.acquire.sh doc_3"
     echo "To delete your crewmate: type 'rm Crewmate'"
-else [ ! -f "$FILE" ];
+else;
     sleep 1
-  echo "Get out of there now! You have no way to defend yourself!"
-  echo "It's to late, your crewmate is advancing on you."
-  echo "You put your fists up in defense."
-  echo "But it is nothing compared to their strength."
-  echo "You are overpowered."
-  echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-  echo "Game Over. Restart the game "
-  rm -r ProjectOpis
+    echo "Get out of there now! You have no way to defend yourself!"
+    echo "It's to late, your crewmate is advancing on you."
+    echo "You put your fists up in defense."
+    echo "But it is nothing compared to their strength."
+    echo "You are overpowered."
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    echo "Game Over. Restart the game "
+  rm -fr $user
 fi
