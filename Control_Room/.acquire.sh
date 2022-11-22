@@ -17,3 +17,4 @@ echo
 rsync -avq $user/inventory $user/Medical_Room/inventory
 rsync -avq $user/inventory $user/Office_Room/inventory
 rsync -avq $user/inventory $user/Engine_Room/inventory
+rsync -avq $user/inventory $user/Engine_Room/Engine/inventory
