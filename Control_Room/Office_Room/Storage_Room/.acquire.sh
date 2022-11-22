@@ -16,3 +16,4 @@ echo
 
 rsync -av $user/inventory ~/ProjectOpis/Control_Room/inventory
 rsync -av $user/inventory ~/ProjectOpis/Control_Room/Office_Room/inventory
+rsync -av $user/inventory ~/ProjectOpis/Control_Room/Office_Room/Bedroom/inventory
