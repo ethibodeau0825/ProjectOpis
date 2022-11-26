@@ -10,4 +10,6 @@ The Engine Room is one of those locked rooms, to your dismay.
 
 The other rooms are all locked, their keys scattered around. You recall one being in here, a blue key that goes to the Medical Room.
 
-# Make this Observe a vim and add rsync to all the locked rooms 
+To move around: cd <Directory>
+To move back: cd ..
+To pick up items: ./.acquire.sh
