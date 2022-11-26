@@ -7,11 +7,11 @@ echo " "
 echo " ---------------------------------------------------------------------------------------------------"
 echo " " 
 
-FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
+#FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
 
   sleep 1
-    if grep -Fxq "tool_box"&"doc_1"&"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6" inventory; then
-    # [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
+    if grep -Fxq "tool_box.*doc_1"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6"' inventory; then
+     # [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
         echo "Pulling out your toolkit you get set to work."
         echo "Your hands work as if in second nature, as the engine seems to fix itself"
         echo "You step back and smile, the engine is fixed."
@@ -64,7 +64,7 @@ FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
         echo "Game over."
         rm -rf ProjectOpis
     else
-        echo "I don't know how you got here"
+        echo "I dont know how you got here"
         echo "Good Bye"
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
