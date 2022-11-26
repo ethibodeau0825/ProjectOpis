@@ -10,13 +10,13 @@ There is a bed with two side tables and a chair in the corner of the room.
 The bureau is standing directly Opposite of the bed. 
 
 The Bureau has a green key on it. To move the key to the Control Room:
-mv green_key Control_Room
+mv Green_key ~/ProjectOpis/Control_Room/Keychain
 
 On the left nightstand there is a research document. To move it to the Control Room:
-mv doc_6 Control_Room
+./.acquire.sh
 
 Under the chair in the corner there is a purple key. To move it to the Control Room:
-mv purple_key Control_Room"
+mv Purple_key ~/ProjectOpis/Control_Room/Keychain"
 else
   echo "Access Denied"
 fi
