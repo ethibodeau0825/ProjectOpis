@@ -1,4 +1,5 @@
-You look around the Control Room.
+#!/bin/bash
+echo "You look around the Control Room.
 It's not very large, but it's probably the cleanest and most organized part of the ship.
 Several screens look as they should, automating work that would have been done by a living organism... Had any been alive right now. 
 
@@ -13,4 +14,4 @@ The other rooms are all locked, their keys scattered around. You recall one bein
 To move around: cd <Directory>
 To move back: cd ..
 To pick up items: ./.acquire.sh
-To move keys: mv Blue_Key Keychain
+To move keys: mv Blue_Key Keychain"
