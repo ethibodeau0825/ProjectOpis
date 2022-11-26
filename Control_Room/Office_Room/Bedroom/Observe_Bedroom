@@ -16,7 +16,7 @@ On the left nightstand there is a research document. To move it to the Control R
 ./.acquire.sh
 
 Under the chair in the corner there is a purple key. To move it to the Control Room:
-mv Purple_key ~/ProjectOpis/Control_Room/Keychain"
+mv Pink_Key ~/ProjectOpis/Control_Room/Keychain"
 else
   echo "Access Denied"
 fi
