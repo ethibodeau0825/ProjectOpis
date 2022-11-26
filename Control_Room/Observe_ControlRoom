@@ -13,3 +13,4 @@ The other rooms are all locked, their keys scattered around. You recall one bein
 To move around: cd <Directory>
 To move back: cd ..
 To pick up items: ./.acquire.sh
+To move keys: mv Blue_Key Keychain
