@@ -14,6 +14,6 @@ echo "$item" >> inventory
 echo "You acquired $item!"
 echo
 
-rsync -av $user/inventory ~/ProjectOpis/Control_Room/inventory
-rsync -av $user/inventory $user/Storage_Room/inventory
-rsync -av $user/inventory $user/Bedroom/inventory
+rsync -avq $user/inventory ~/ProjectOpis/Control_Room/inventory
+rsync -avq $user/inventory $user/Storage_Room/inventory
+rsync -avq $user/inventory $user/Bedroom/inventory
