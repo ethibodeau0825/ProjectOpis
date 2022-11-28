@@ -9,7 +9,8 @@ if grep -Fxq "Scalpel" inventory; then
     echo "They were once your friend, now gone to a prototype cure."
     echo "As the adreneline dies down you notice the research they dropped."
     echo
-    echo "You should pick up the Document 3"
+    echo "You should pick up the Document 3. It looks pretty rough, admittedly."
+    echo "You can already see most is illegible, but the main research you need should be safe."
     echo "To acquire the Document 3: type ./.acquire.sh"
     echo "To delete your crewmate: type 'rm Crewmate'"
     echo
