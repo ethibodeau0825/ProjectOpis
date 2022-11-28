@@ -6,18 +6,14 @@ then
 	echo "You look around the Office Room.
 
 There are papers and binders all over the floor and desks. A desk has been overturned with a knocked-over chair to pair with it.
-
-You see another Research Document on a chair. To move it to the Control Room:
-  ./.acquire.sh
+You see another Research Document on an unturned chair, a map on the desk nearby as well among other papers. 
+Under crumpled papers you move aside for the map, you find a purple key as well.
  
-There is a map on one of the desks. To see the map:
-  cat map
-  
-You find a purple key under crumped paper. To move the key to the Control Room:
-  mv Purple_key ~/ProjectOpis/Control_Room/Keychain
-  
-In the corner, you see a toolbox. Move toolbox to the Control Room: 
-  ./.acquire.sh"
+In the corner, you see a toolbox nearby some shelving that is somehow relatively untouched. Why it's in here instead of put away remains unknown.
+
+To move the key to the Control Room: mv Purple_key ~/ProjectOpis/Control_Room/Keychain
+To see the map: cat map
+To move the toolbox or document to the Control Room: ./.acquire.sh"
 else 
 	echo "Access Denied"
 fi
