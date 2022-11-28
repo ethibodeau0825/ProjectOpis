@@ -2,12 +2,12 @@
 user=$PWD
 if grep -Fxq "Scalpel" inventory; then
     echo
-    echo "They lung towards you."
-    echo "You recall the scalpel you picked up in the med room."
-    echo "In one defensive motion, you kill the crewmate."
-    echo "Their blood splattered among your face you stand in shock."
-    echo "They were once your friend."
-    echo "Pulling yourself out of the stupor you notice part of the research behind them."
+    echo "They lunge at you, their gurgles echoed in your ears and their hands poised ready to harm you."
+    echo "You recall the scalpel you picked up in the last room. You'd almost ignored it too..."
+    echo "In one defensive yet swift motion, you take out your old crewmate."
+    echo "Their blood splattered among your face you stand in shock. Everything just moved far too fast."
+    echo "They were once your friend, now gone to a prototype cure."
+    echo "As the adreneline dies down you notice the research they dropped."
     echo
     echo "You should pick up the Document 3"
     echo "To acquire the Document 3: type ./.acquire.sh"
@@ -16,13 +16,13 @@ if grep -Fxq "Scalpel" inventory; then
 else
     sleep 1
     echo
-    echo "Get out of there now! You have no way to defend yourself!"
-    echo "It's to late, your crewmate is advancing on you."
-    echo "You put your fists up in defense."
+    echo "You have no way to defend yourself! You should have left when you were still thinking about it!"
+    echo "It's to late now though, your crewmate swiftly advances on you."
+    echo "You put your fists up in some meek, quickly construed defense."
     echo "But it is nothing compared to their strength."
-    echo "You were overpowered."
+    echo "You were overpowered by your crewmate, your ship left to drift amidst the gravity of Opis."
     echo 
-    echo "Game Over. Restart the game "
+    echo "Game Over. Restart the game to try again."
     exit
     exit
   rm -fr ProjectOpis/
