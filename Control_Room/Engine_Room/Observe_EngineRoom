@@ -5,10 +5,12 @@ if [ $x == "lo?ng^" ];
 then
         echo "You have entered into the Engine Room.
 
-There is a beepig noise coming from the neutralizer on the engine
-and steam is being escaped from the engines lower compartment.
+There is a beeping noise coming from the screen showing the status of the engine. It doesn't look pretty.
+Steam escapes from a few bits of the valves on the pipes.
 
-It looks like the damages to the engine are repairable."
+It looks like the damages to the engine are repairable but you know in the back of your mind these had been done by a living hand.
+It makes you a bit angered that you know your now deceased crewmate was more than likely to blame for the engine damage.
+You don't have time to be angry though, you can handle that later. You have an engine to repair."
 else
         echo "Access Denied"
 fi
