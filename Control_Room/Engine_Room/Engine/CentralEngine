@@ -20,7 +20,6 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "        
         echo "Game over."
-        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
     elif  grep -Fxq "tool_box" inventory
  then
@@ -35,7 +34,6 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "
         echo "Game over."
-        echo "-rf ProjectOpis"
         rm -rf Project
      else
         echo "Reaching the engine you look around"
@@ -47,6 +45,5 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
-        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
     fi
