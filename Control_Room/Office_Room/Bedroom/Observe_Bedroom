@@ -5,18 +5,16 @@ if [ $x == "rda<e3" ]
 then
   echo "You have wandered into the Bedroom. 
 
-You look around and take in the sight of a standard bedroom. 
-There is a bed with two side tables and a chair in the corner of the room. 
-The bureau is standing directly Opposite of the bed. 
+You look around and take in the sight of a standard bedroom meant for communal living. It makes you feel hollow just to stand in this bedroom.
+There is a few beds with some side side tables and chairs in the corner of the room. It's pretty organized in here too, but no one really slept anyway.
 
-The Bureau has a green key on it. To move the key to the Control Room:
-mv Green_key ~/ProjectOpis/Control_Room/Keychain
+The bureau and shelf is standing directly opposite of the bed. You had shared it with others before they'd left. On the bureau is a lone green key.
+On the left nightstand there is a research document with a plain notepad and pen.
+You look around a bit more and find a purple key stashed under a chair too. It isn't up to you to question, but you can't help but wonder who hid this back here.
 
-On the left nightstand there is a research document. To move it to the Control Room:
-./.acquire.sh
-
-Under the chair in the corner there is a purple key. To move it to the Control Room:
-mv Pink_Key ~/ProjectOpis/Control_Room/Keychain"
+To move the document: ./.acquire.sh
+To move the key to the Control Room: mv Green_key ~/ProjectOpis/Control_Room/Keychain
+To move the purple key: mv Pink_Key ~/ProjectOpis/Control_Room/Keychain"
 else
   echo "Access Denied"
 fi
