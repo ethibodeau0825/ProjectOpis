@@ -15,7 +15,7 @@ echo "You acquired $item!"
 echo
 
 rsync -avq $user/inventory ~/ProjectOpis/Control_Room/inventory
-rsync -avq $user/inventory ~/ProjectOpis/Office_Room/Storage_Room/inventory
+rsync -avq $user/inventory ~/ProjectOpis/Control_Room/Office_Room/Storage_Room/inventory
 rsync -avq $user/inventory ~/ProjectOpis/Control_Room/Engine_Room/inventory
 rsync -avq $user/inventory ~/ProjectOpis/Control_Room/Engine_Room/Engine/inventory
 rsync -avq $user/inventory ~/ProjectOpis/Control_Room/Office_Room/inventory
