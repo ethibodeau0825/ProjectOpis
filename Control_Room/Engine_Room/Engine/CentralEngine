@@ -23,6 +23,7 @@ echo " "
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "        
         echo "Game over."
+        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
     elif grep -Fxq "tool_box"&"doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
     # [[ $doc_count == 6 ]] && [ -f $FILE ]; then
@@ -36,6 +37,7 @@ echo " "
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "
         echo "Game over."
+        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
      elif grep -Fxq "doc_1"&"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6" inventory; then
      # [[ $doc_count < 6 ]] && [ ! -f $FILE ]; then
@@ -48,6 +50,7 @@ echo " "
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
+        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
      elif grep -Fxq "doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
      # [[ $doc_count  == 6 ]] && [ ! -f $FILE ]; then
@@ -62,6 +65,7 @@ echo " "
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
+        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
     else
         echo "I dont know how you got here"
@@ -69,6 +73,7 @@ echo " "
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
+        echo "-rf ProjectOpis"
         rm -rf ProjectOpis
         exit
     fi
