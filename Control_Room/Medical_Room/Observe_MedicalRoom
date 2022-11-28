@@ -4,22 +4,24 @@ read x
 
 if [ $x == "+3yy<0" ] 
 then 
-	echo "You look around the Medical Room. The floor is scattered with blood and papers. The smell of sterile plastic and iron makes your heart lurch. 
+	echo "You look around the Medical Room. The floor is scattered with glass and papers. The smell of sterile plastic and iron makes your heart lurch. 
 
-Instruments and pills are knocked over.
-You see the note. You notice the another Research Document on the floor. There is a red key hanging on the board.
+Instruments and pills are knocked over. It looks like a bomb went off in here with how messy everything is...
+You see the note with notice the another missing document among the mess on the floor. There is a red key hanging on the board nearby as well
 
-You almost step on a scalpel on the floor.
+You almost step on a scalpel on the floor amidst the mess of paper and glass. Who knows what other dangerous things have been scattered.
+
+After your brief look-over of the room, you see a cracked door at the back. Muffled gasping and gurgles are heard from where you stand. 
+
+It sounds quite digusting, frankly, and you feel your body stiffen from thinking of even entering that room.
+You hurt to know that the noise will come from a crewmate as well. It makes your heart sore, the only thing you can do is hope no one else will suffer the same way.
 
 To pick up items: ./.acquire.sh
 To pick up the red key: mv Red_Key ~/ProjectOpis/Control_Room/Keychain 
 To read the note: cat note
 
-
-After you collected and observed the room you notice a door that is cracked. Muffled gasping and gurgling is heard from the entrance way.
-
-To brave foward the room: cd Lab_Room
-If you want to move back to the Control Room: cd .."
+To brave the back lab: cd Lab_Room
+To move back to the Control Room: cd .."
 else
 	echo "Access Denied"
 fi
