@@ -5,75 +5,48 @@ echo " You feel the gravity of the planet below pulling, you are very close to h
 echo " You run over to the engine looking to fix it."
 echo " "
 echo " ---------------------------------------------------------------------------------------------------"
-echo " " 
-
-#FILE=/ProjectOpis/Control_Room/Storage_Room/tool_box
+echo " "
 
   sleep 1
-    if grep -Fxq "tool_box.*doc_1"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6"' inventory; then
-     # [[ $doc_cout < 6 ]] && [ -f $FILE ]; then
-        echo "Pulling out your toolkit you get set to work."
-        echo "Your hands work as if in second nature, as the engine seems to fix itself"
-        echo "You step back and smile, the engine is fixed."
-        echo "The ship starts to warp and auto poilot takes over."
-        echo "You are going home."
-        echo "A sinking feeling pools at the bottom of your stomache."
-        echo "The research is incomplete"
-        echo "Youre alive but doomed your people."
-        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
-        echo " "        
-        echo "Game over."
-        echo "-rf ProjectOpis"
-        rm -rf ProjectOpis
-    elif grep -Fxq "tool_box"&"doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
-    # [[ $doc_count == 6 ]] && [ -f $FILE ]; then
+    if  grep -Fxq "doc_1" inventory  &&  grep -Fxq "doc_2" inventory  &&  grep -Fxq "doc_3" inventory  && grep -Fxq "doc_5" inventory && grep -Fxq "doc_4" inventory && grep -Fxq "doc_6" inventory && grep -Fxq "tool_box" inventory
+then
         echo "Pulling out your toolkit you get set to work."
         echo "Your hands work as if in second nature, as the engine seems to fix itself"
         echo "You step back and smile, the engine is fixed."
         echo "The ship starts to warp and auto poilot takes over."
         echo "You are going home."
         echo "You stand back content and pull out the completed research."
-        echo "With the cure found and the ship fixed you can save your people"
+	echo "With the cure found and the ship fixed ypu can save your people."
+        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
+        echo " "        
+        echo "Game over."
+        echo "-rf ProjectOpis"
+        rm -rf ProjectOpis
+    elif  grep -Fxq "tool_box" inventory
+ then
+        echo "Pulling out your toolkit you get set to work."
+        echo "Your hands work as if in second nature, as the engine seems to fix itself"
+        echo "You step back and smile, the engine is fixed."
+        echo "The ship starts to warp and auto poilot takes over."
+        echo "You are going home."
+	echo "A sinking feeling pools at the bottom of your stomach."
+	echo "The research is incomplete."
+	echo "You are alive but your people are doomed."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "
         echo "Game over."
         echo "-rf ProjectOpis"
-        rm -rf ProjectOpis
-     elif grep -Fxq "doc_1"&"doc_2"&"doc_3"\|"doc_5"&"doc_4"&"doc_6" inventory; then
-     # [[ $doc_count < 6 ]] && [ ! -f $FILE ]; then
+        rm -rf Project
+     else
         echo "Reaching the engine you look around"
         echo "No tools litter the floor just broken pieces of machinery."
         echo "The planet is getting closer and closer."
         echo "Closing your eyes you brace for impact knowing that your planet will not be saved."
         echo "The sabatours won."
-        echo "The ship crashies and you do not make it."
+        echo "The ship crashes and you do not make it."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
         echo "-rf ProjectOpis"
         rm -rf ProjectOpis
-     elif grep -Fxq "doc_1"&"doc_2"&"doc_3"&"doc_4"&"doc_5"&"doc_6" inventory; then
-     # [[ $doc_count  == 6 ]] && [ ! -f $FILE ]; then
-        echo "Reaching the engine you look around"
-        echo "No tools litter the floor just broken pieces of machinery."
-        echo "You reach into your inventory and pull out the completed research."
-        echo "The planet is getting closer and closer."
-        echo "Closing your eyes you brace for impact knowing that the research will never reach the planet."
-        echo "They will not be saved."
-        echo "The sabatours won."
-        echo "The ship crashies and you and the research do not make it."
-        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
-        echo " "
-        echo "Game over."
-        echo "-rf ProjectOpis"
-        rm -rf ProjectOpis
-    else
-        echo "I dont know how you got here"
-        echo "Good Bye"
-        echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
-        echo " "
-        echo "Game over."
-        echo "-rf ProjectOpis"
-        rm -rf ProjectOpis
-        exit
     fi
