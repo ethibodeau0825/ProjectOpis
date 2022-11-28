@@ -5,8 +5,7 @@ if [ $x == "@_v#7[" ]
 then 
 	echo "You look around the Office Room.
 
-There are papers and binders all over the floor. 
-The desks and chairs are overturned.
+There are papers and binders all over the floor and desks. A desk has been overturned with a knocked-over chair to pair with it.
 
 You see another Research Document on a chair. To move it to the Control Room:
   ./.acquire.sh
