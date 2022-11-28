@@ -9,17 +9,16 @@ echo "Access Denied"
 
 elif [ $x == "(h#;o2" ]; then
         sleep 1
-      echo "A odorless gas filled the room."
-      echo "You look around the Chem Lab"
-      echo "The lab is a mess, there is broken glass and different colored liquids on the floor."
+      echo "You look around the Chem Lab. It feels a bit off in here, and the scent of something near you is making you drowsy."
+      echo "The lab is a mess, there is broken glass and different colored liquids on the floor beneath your feet."
       echo " "
         sleep 1
-      echo "You start to feel lightheaded."
-      echo "You fall over and die from the gas."
+      echo "You start to feel lightheaded. You want to leave the room, but you feel far too sick and lean against a counter nearby to catch yourself."
+      echo "You fall over, weakened by the fumes of the liquids on the ground even further."
       echo " "
       echo " --------------------------------------------"
       echo " "
-      echo "You died! Restart to play again."
+      echo "You died of the chemical fumes of the lab. Restart to play again."
       echo "-rf ProjectOpis"
 
     rm -r ProjectOpis
