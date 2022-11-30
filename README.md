@@ -9,4 +9,4 @@ Developed By Elise Thibodeau, Jena Baxter, Faith Yang, Isabel Majdoch
 
 **_Instructions_**
 
-  Use *cd* to move between rooms. Using ls tells you the contents of the directory or lets you see the direct names of the items in the room. The command to look around in the room is "./observe_*RoomName*", as it offers a more in-depth explanation of what is in the room. Further instructions of usable commands are given as you progress.
+  Use *cd* to move between rooms. Using ls tells you the contents of the directory or lets you see the direct names of the items in the room. The command to look around in the room is "cat observe_*RoomName*", as it offers a more in-depth explanation of what is in the room. Further instructions of usable commands are given as you progress.
