@@ -19,8 +19,7 @@ elif [ $x == "(h#;o2" ]; then
       echo " --------------------------------------------"
       echo " "
       echo "You died of the chemical fumes of the lab. Restart to play again."
-      echo "-rf ProjectOpis"
 
-    rm -rf $PWD
+    rm -rf home/user/ProjectOpis
 
 fi
