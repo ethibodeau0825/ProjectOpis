@@ -15,8 +15,4 @@ if [ $? -eq 0 ]; then
 	exit 0
 fi
 
-echo "$item" >> inventory
-echo "You acquired $item!"
-echo
-
 rsync -avq $user/inventory $user/Lab_Room/inventory
