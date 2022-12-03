@@ -21,6 +21,6 @@ elif [ $x == "(h#;o2" ]; then
       echo "You died of the chemical fumes of the lab. Restart to play again."
 
         cd ..
-        rm -rf $home/user/ProjectOpis
+        rm -rf $home/imajdoch0433/ProjectOpis
 
 fi
