@@ -14,6 +14,11 @@ In the corner, you see a toolbox nearby some shelving that is somehow relatively
 To move the key to the Control Room: mv Purple_key ~/ProjectOpis/Control_Room/Keychain
 To see the map: cat map
 To move the toolbox or document to the Control Room: ./.acquire.sh"
+mv .Bedroom Bedroom
+mv .doc_4 doc_4
+mv .Purple_Key Purple_Key
+mv .Storage_Room Storage_Room
+mv .tool_box tool_box
 else 
 	echo "Access Denied"
 fi
