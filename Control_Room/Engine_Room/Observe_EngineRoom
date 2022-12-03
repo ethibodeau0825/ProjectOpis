@@ -11,6 +11,7 @@ Steam escapes from a few bits of the valves on the pipes.
 It looks like the damages to the engine are repairable but you know in the back of your mind these had been done by a living hand.
 It makes you a bit angered that you know your now deceased crewmate was more than likely to blame for the engine damage.
 You don't have time to be angry though, you can handle that later. You have an engine to repair."
+mv .Engine Engine
 else
         echo "Access Denied"
 fi
