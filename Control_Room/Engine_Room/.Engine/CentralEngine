@@ -1,12 +1,11 @@
 #!/bin/bash
+echo " "
 echo " The engine is sputtering, alarms and flashing red lights cloud your vision."
 echo " You run to the engine frantically trying to find a way to fix it."
 echo " You feel the gravity of the planet below pulling, you are very close to hitting Opis's surface."
 echo " You run over to the engine looking to fix it."
-echo " "
 echo " ---------------------------------------------------------------------------------------------------"
-echo " "
-
+gameDir=$PWD
   sleep 1
     if  grep -Fxq "doc_1" inventory  &&  grep -Fxq "doc_2" inventory  &&  grep -Fxq "doc_3" inventory  && grep -Fxq "doc_5" inventory && grep -Fxq "doc_4" inventory && grep -Fxq "doc_6" inventory && grep -Fxq "tool_box" inventory
 then
@@ -20,7 +19,6 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "        
         echo "Game over."
-        rm -rf ProjectOpis
     elif  grep -Fxq "tool_box" inventory
  then
         echo "Pulling out your toolkit you get set to work."
@@ -45,5 +43,6 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
-        rm -rf ProjectOpis
+cd /home/gameDir/ProjectOpis
+        rm -rf home/gameDir/ProjectOpis
     fi
