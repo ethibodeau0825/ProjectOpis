@@ -4,6 +4,7 @@ read item
 if [[ $item == "doc_1" ]]; then
 	echo "$item" >> inventory
 	echo "You acquired $item!"
+fi
 echo
 user=$PWD
 grep -q $item $user/inventory
