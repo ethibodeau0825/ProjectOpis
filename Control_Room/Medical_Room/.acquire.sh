@@ -5,6 +5,9 @@ if [[ $item == "doc_2" || $item == "note" || $item == "Scalpel" || $item == "Red
 	echo "$item" >> inventory
 	echo "You acquired $item!"
 	echo
+else 
+	echo "This item does not seem to fit in your inventory..."
+	echo
 fi
 
 user=$PWD
