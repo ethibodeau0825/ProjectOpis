@@ -13,9 +13,9 @@ if [[ $item == "doc_1" ]]; then
 	echo "$item" >> inventory
 	echo "You acquired $item!"
 	echo
-#else 
-#	echo "This item does not seem to fit in your inventory..."
-#	echo
+else 
+	echo "This item does not seem to fit in your inventory..."
+	echo
 fi
 
 rsync -avq $user/inventory $user/Medical_Room/inventory
