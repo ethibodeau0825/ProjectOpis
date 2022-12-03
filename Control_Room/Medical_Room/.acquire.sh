@@ -1,19 +1,22 @@
 #!/bin/bash
 echo "Please enter item: "
 read item
-if [[ $item == "doc_2" || $item == "note" || $item == "Scalpel" || $item == "Red_Key" ]]; then
-	echo "$item" >> inventory
-	echo "You acquired $item!"
-	echo
-else 
-	echo "This item does not seem to fit in your inventory..."
-	echo
-fi
 
 user=$PWD
 grep -q $item $user/inventory
 if [ $? -eq 0 ]; then
 	echo "$item is already in your inventory!"
+	echo
+	exit 0
+fi
+
+if [[ $item == "doc_2" || $item == "note" || $item == "Scalpel" || $item == "Red_Key" ]]; then
+	echo "$item" >> inventory
+	echo "You acquired $item!"
+	echo
+	exit 0
+else 
+	echo "This item does not seem to fit in your inventory..."
 	echo
 	exit 0
 fi
