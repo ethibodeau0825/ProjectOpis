@@ -8,6 +8,8 @@ then
 echo "Access Denied"
 
 elif [ $x == "(h#;o2" ]; then
+        cd ../../../
+        rm -rf $PWD
         sleep 1
       echo "You look around the Chem Lab. It feels a bit off in here, and the scent of something near you is making you drowsy."
       echo "The lab is a mess, there is broken glass and different colored liquids on the floor beneath your feet."
@@ -21,6 +23,6 @@ elif [ $x == "(h#;o2" ]; then
       echo "You died of the chemical fumes of the lab. Restart to play again."
 
         cd ../../../
-        rm -rf $home/imajdoch0433/ProjectOpis
+        rm -rf $PWD
 
 fi
