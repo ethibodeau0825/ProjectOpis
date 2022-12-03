@@ -15,6 +15,9 @@ You look around a bit more and find a purple key stashed under a chair too. It i
 To move the document: ./.acquire.sh
 To move the key to the Control Room: mv Green_key ~/ProjectOpis/Control_Room/Keychain
 To move the purple key: mv Pink_Key ~/ProjectOpis/Control_Room/Keychain"
+mv .Pink_Key Pink_Key
+mv .Green_Key Green_Key
+mv .doc_6 doc_6
 else
   echo "Access Denied"
 fi
