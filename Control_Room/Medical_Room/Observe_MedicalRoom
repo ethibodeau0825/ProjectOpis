@@ -22,6 +22,10 @@ To read the note: cat note
 
 To brave the back lab: cd Lab_Room
 To move back to the Control Room: cd .."
+mv .Red_Key Red_Key
+mv .note note
+mv .doc_2 doc_2
+mv .Scalpel Scalpel
 else
 	echo "Access Denied"
 fi
