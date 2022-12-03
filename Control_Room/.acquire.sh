@@ -4,8 +4,11 @@ read item
 if [[ $item == "doc_1" ]]; then
 	echo "$item" >> inventory
 	echo "You acquired $item!"
+	echo
+else 
+	echo "This item does not seem to fit in your inventory..."
+	echo
 fi
-echo
 user=$PWD
 grep -q $item $user/inventory
 if [ $? -eq 0 ]; then
