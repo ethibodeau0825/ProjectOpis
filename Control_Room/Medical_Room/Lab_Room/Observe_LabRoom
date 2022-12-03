@@ -9,4 +9,4 @@ Do you obtain the document or leave them alone?
 
 To engage: ./Crewmate
 To go back to Medical Room: cd .."
-echo
+mv .Crewmate .Crewmate
