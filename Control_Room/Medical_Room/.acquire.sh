@@ -21,4 +21,5 @@ else
 	exit 0
 fi
 
-rsync -avq $user/inventory $user/Lab_Room/inventory
+rsync -avq $user/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
+rsync -avq $user/inventory ~/ProjectOpis/Control_Room/inventory
