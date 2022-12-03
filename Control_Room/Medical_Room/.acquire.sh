@@ -2,8 +2,8 @@
 echo "Please enter item: "
 read item
 
-user=$PWD
-grep -q $item $user/inventory
+player=$PWD
+grep -q $item $player/inventory
 if [ $? -eq 0 ]; then
 	echo "$item is already in your inventory!"
 	echo
@@ -21,5 +21,5 @@ else
 	exit 0
 fi
 
-rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
-rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/inventory
+cp -aRp ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
+cp -aRp ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/inventory
