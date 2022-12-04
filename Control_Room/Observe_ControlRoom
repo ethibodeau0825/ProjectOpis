@@ -62,6 +62,7 @@
 
 #!/bin/bash
 echo "You look around the Control Room.
+
 It's not very large, but it's probably the cleanest and most organized part of the ship.
 Several screens look as they should, automating work that would have been done by a living organism... Had any been alive right now. 
 
@@ -72,10 +73,12 @@ The other room keys must be scattered around. You recall one being in here, a bl
 
 To move around: cd <Directory>
 To move back: cd ..
-To pick up items: ./.acquire.sh
+To pick up items: ./.acquire.sh and type the name of the item as it shows in the directory
 To move keys: mv Blue_Key Keychain
 
 *Hint: The Keychain is a directory that you can 'cd' to. In order to read each password, you must move the keys as instructed and 'cat' each key.*
 *To read the password off the Blue Key in this case, type *cat Blue_Key*. Move them to your Keychain to access them easily in case you forget the password*.
 
 *Consult the README.md for help if needed as you progress.*"
+echo " "
+echo " "
