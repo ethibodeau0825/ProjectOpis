@@ -11,7 +11,7 @@ if grep -Fxq "Scalpel" inventory; then
     echo
     echo "You should pick up the Document 3. It looks pretty rough, admittedly."
     echo "You can already see most is illegible, but the main research you need should be safe."
-    echo "To acquire the Document 3: type ./.acquire.sh"
+    echo "To acquire the Document 3: type ./.acquire.sh and type 'doc _3'"
     echo "To delete your crewmate: type 'rm Crewmate'"
     echo
 else
