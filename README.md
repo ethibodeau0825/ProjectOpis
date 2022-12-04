@@ -41,7 +41,7 @@ Developed By Elise Thibodeau, Jena Baxter, Faith Yang, Isabel Majdoch
   
   *ls* will tell you the contens of the "room". The actual way to look around is "./Observe_RoomName", which gives more insight to the room and its contents rather than just a list of names.
   
-  Take note of each file. Those marked with a * symbol at the beginning are able to be read using *cat* followed by its filename.
+  Take note of each file. Files with tradtionally-colored font are able to be read using *cat* followed by its name.
   
   Instructions are given further as you Observe each room, so read carefully and consult each room for further aid.
  
