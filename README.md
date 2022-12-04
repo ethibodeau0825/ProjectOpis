@@ -43,5 +43,7 @@ Developed By Elise Thibodeau, Jena Baxter, Faith Yang, Isabel Majdoch
   
   Take note of each file visually. Files with tradtionally-colored font are able to be read using *cat* followed by its name.
   
+  Note the Keychain as well - the location of where all of your keys collected are. You can *cd* to the Keychain to then read the passwords of each key. This command would look like so: "cat Blue_Key". These instructions are also reiterated in the first Observe. You can consult the README at any time as well.
+  
   Instructions are given further as you Observe each room, so read carefully and consult each room for further aid.
  
