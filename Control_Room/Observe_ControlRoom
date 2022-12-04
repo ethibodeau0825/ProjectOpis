@@ -73,4 +73,9 @@ The other room keys must be scattered around. You recall one being in here, a bl
 To move around: cd <Directory>
 To move back: cd ..
 To pick up items: ./.acquire.sh
-To move keys: mv Blue_Key Keychain"
+To move keys: mv Blue_Key Keychain
+
+*Hint: The Keychain is a directory that you can 'cd' to. In order to read each password, you must move the keys as instructed and 'cat' each key.*
+*To read the password off the Blue Key in this case, type *cat Blue_Key*. Move them to your Keychain to access them easily in case you forget the password*.
+
+*Consult the README.md for help if needed as you progress.*"
