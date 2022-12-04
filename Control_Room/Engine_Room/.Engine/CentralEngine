@@ -15,7 +15,7 @@ then
         echo "The ship starts to warp and auto poilot takes over."
         echo "You are going home."
         echo "You stand back content and pull out the completed research."
-	echo "With the cure found and the ship fixed ypu can save your people."
+	echo "With the cure found and the ship fixed you can save your people."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "        
         echo "Game over."
@@ -32,7 +32,7 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "
         echo "Game over."
-        rm -rf Project
+        rm -rf /home/$USER/ProjectOpis
      else
         echo "Reaching the engine you look around"
         echo "No tools litter the floor just broken pieces of machinery."
@@ -43,6 +43,5 @@ then
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
         echo "Game over."
-cd /home/gameDir/ProjectOpis
-        rm -rf home/gameDir/ProjectOpis
+rm -rf /home/$USER/ProjectOpis
     fi
