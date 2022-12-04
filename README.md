@@ -37,5 +37,11 @@ Developed By Elise Thibodeau, Jena Baxter, Faith Yang, Isabel Majdoch
 
 **_Instructions_**
   
-  Use *cd RoomName* to move between rooms, and *cd ..* to move back a room. *ls* will tell you the contens of the "room". The actual way to look around is "cat Observe_RoomName", which gives more insight to the room and its contents rather than just a list of names. Instructions are given further when you cat (concatenate) the Observe file for each room, so read carefully and consult the room for further aid.
+  Use *cd RoomName* to move between rooms, and *cd ..* to move back a room.
+  
+  *ls* will tell you the contens of the "room". The actual way to look around is "./Observe_RoomName", which gives more insight to the room and its contents rather than just a list of names.
+  
+  Take note of each file. Those marked with a * symbol at the beginning are able to be read using *cat* followed by its filename.
+  
+  Instructions are given further as you Observe each room, so read carefully and consult each room for further aid.
  
