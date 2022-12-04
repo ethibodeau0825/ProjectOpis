@@ -19,5 +19,5 @@ else
 	echo
 fi
 
-cp -aRp ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
-cp -aRp ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/inventory
+rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
+rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/inventory
