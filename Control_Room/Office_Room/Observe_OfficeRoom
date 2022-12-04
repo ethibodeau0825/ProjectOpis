@@ -36,14 +36,13 @@ then
 	echo "You look around the Office Room.
 
 There are papers and binders all over the floor and desks. A desk has been overturned with a knocked-over chair to pair with it.
-You see another Research Document on an unturned chair, a map on the desk nearby as well among other papers. 
-Under crumpled papers you move aside for the map, you find a purple key as well.
+You see another Research Document on an unturned chair. It's a weird place to have stashed it. You don't feel like wondering how it got there right now.
+Under crumpled papers, you find a purple key as well.
  
-In the corner, you see a toolbox nearby some shelving that is somehow relatively untouched. Why it's in here instead of put away remains unknown.
+In the corner, you see a toolbox nearby some shelving that is somehow relatively untouched. Why it's in here instead of put away remains unknown too.
 
 To move the key to the Control Room: mv Purple_key ~/ProjectOpis/Control_Room/Keychain
-To see the map: cat map
-To move the toolbox or document to the Control Room: ./.acquire.sh"
+To move the toolbox or document to the Control Room: ./.acquire.sh and type the name of the item as it shows in the directory"
 mv .Bedroom Bedroom
 mv .doc_4 doc_4
 mv .Purple_Key Purple_Key
