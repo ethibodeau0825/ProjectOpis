@@ -37,7 +37,7 @@ echo "The damage is fixable, you take a deep breath..."
 echo " ---------------------------------------------------------------------------------------------------"
 gameDir=$PWD
   sleep 1
-    if  grep -Fxq "doc_1" inventory  &&  grep -Fxq "doc_2" inventory  &&  grep -Fxq "doc_3" inventory  && grep -Fxq "doc_5" inventory && grep -Fxq "doc_4" inventory && grep -Fxq "doc_6" inventory && grep -Fxq "toolbox" inventory
+    if  grep -Fxq "doc_1" inventory  &&  grep -Fxq "doc_2" inventory  &&  grep -Fxq "doc_3" inventory  && grep -Fxq "doc_5" inventory && grep -Fxq "doc_4" inventory && grep -Fxq "doc_6" inventory && grep -Fxq "tool_box" inventory
 then
         echo "You reach for your toolkit..."
 	echo "You set it down in the engine room a bit ago. It's filled with various tools that have been used to fix the engine before."
