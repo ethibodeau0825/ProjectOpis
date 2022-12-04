@@ -42,7 +42,7 @@ The bureau and shelf is standing directly opposite of the bed. You had shared it
 On the left nightstand there is a research document with a plain notepad and pen.
 You look around a bit more and find a purple key stashed under a chair too. It isn't up to you to question, but you can't help but wonder who hid this back here.
 
-To move the document: ./.acquire.sh
+To move the document: ./.acquire.sh and type the name of the item as it shows in the directory
 To move the key to the Control Room: mv Green_key ~/ProjectOpis/Control_Room/Keychain
 To move the purple key: mv Pink_Key ~/ProjectOpis/Control_Room/Keychain"
 mv .Pink_Key Pink_Key
