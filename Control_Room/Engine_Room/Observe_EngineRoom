@@ -61,3 +61,6 @@ mv .Engine Engine
 else
         echo "Access Denied"
 fi
+
+user=$PWD
+rsync -avq $user/inventory $user/Engine/inventory
