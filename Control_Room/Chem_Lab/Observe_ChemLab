@@ -73,7 +73,7 @@ elif [ $x == "(h#;o2" ]; then
       echo " "
       echo " --------------------------------------------"
       echo " "
-      echo "You died of the chemical fumes of the lab. Restart to play again."
+      echo "You died of the chemical fumes of the lab. cd to your home directory and redownload the game to play again."
 
         rm -rf /home/$USER/ProjectOpis
 
