@@ -19,5 +19,5 @@ else
 	echo
 fi
 
-rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
-rsync -avq ~/ProjectOpis/Control_Room/Medical_Room/inventory ~/ProjectOpis/Control_Room/inventory
+rsync -avq $player/inventory ~/ProjectOpis/Control_Room/Medical_Room/Lab_Room/inventory
+rsync -avq $player/inventory ~/ProjectOpis/Control_Room/inventory
