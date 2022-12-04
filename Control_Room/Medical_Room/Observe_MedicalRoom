@@ -56,7 +56,7 @@ After your brief look-over of the room, you see a cracked door at the back. Muff
 It sounds quite digusting, frankly, and you feel your body stiffen from thinking of even entering that room.
 You hurt to know that the noise will come from a crewmate as well. It makes your heart sore, the only thing you can do is hope no one else will suffer the same way.
 
-To pick up items: ./.acquire.sh
+To pick up items: ./.acquire.sh and type the name of the item as it shows in the directory
 To pick up the red key: mv Red_Key ~/ProjectOpis/Control_Room/Keychain 
 To read the note: cat note
 
