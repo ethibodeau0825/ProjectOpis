@@ -61,7 +61,7 @@ then
 	echo "You are alive but your people are doomed."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"        
         echo " "
-        echo "Game over."
+        echo "Game over. cd to your home directory and redownload the game to play again"
         rm -rf /home/$USER/ProjectOpis
      else
         echo "Reaching the engine you look around"
@@ -72,6 +72,6 @@ then
         echo "The ship crashes and you do not make it."
         echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo " "
-        echo "Game over."
+        echo "Game over. cd to your home directory and redownload the game to play again"
 rm -rf /home/$USER/ProjectOpis
     fi
