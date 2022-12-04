@@ -41,7 +41,7 @@ Developed By Elise Thibodeau, Jena Baxter, Faith Yang, Isabel Majdoch
   
   *ls* will tell you the contens of the "room". The actual way to look around is "./Observe_RoomName", which gives more insight to the room and its contents rather than just a list of names.
   
-  Take note of each file visually. Files with tradtionally-colored font are able to be read using *cat* followed by its name.
+  Take note of each file visually. Files with tradtionally-colored font are able to be read using *cat* followed by its name. You can also *cat* each document to gain more insight of the world. In the Control Room, this command would be typed like so: cat doc_1. It is optional to read them, but important to obtain them.
   
   Note the Keychain as well - the location of where all of your keys collected are. You can *cd* to the Keychain to then read the passwords of each key. This command would look like so: "cat Blue_Key". These instructions are also reiterated in the first Observe. You can consult the README at any time as well.
   
