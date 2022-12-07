@@ -73,7 +73,7 @@ elif [ $x == "(h#;o2" ]; then
       echo " "
       echo " --------------------------------------------"
       echo " "
-      echo "You died of the chemical fumes of the lab. cd to your home directory and redownload the game to play again."
+      echo "You died from the chemical fumes of the lab and have been reset. Try again!"
 
 cd ..
 exec bash
