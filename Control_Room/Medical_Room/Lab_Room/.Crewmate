@@ -24,7 +24,7 @@ else
     echo "You were overpowered by your crewmate, your ship left to drift amidst the gravity of Opis."
     echo 
     echo "Game Over. cd to your home directory and redownload the game to try again"
-    ../..
+   cd ../..
     exec bash
     exit
 fi
